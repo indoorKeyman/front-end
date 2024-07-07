@@ -1,0 +1,69 @@
+#root {
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/fabric_black.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.clock {
+  color: #e8e8e8;
+  font-size: 25px;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 40vh;
+}
+
+.inputDiv {
+  margin: 20px;
+}
+
+.inputTag {
+  margin-right: 10px;
+  border: none;
+  border-bottom: solid 2px #e8e8e8;
+  text-align: center;
+  background: none;
+  color: #e8e8e8;
+  padding: 5px;
+}
+
+::placeholder {
+  color: #e8e8e8;
+}
+
+input:focus {
+  outline: none;
+}
+
+.itemList {
+  margin: 10px;
+  color: #e8e8e8;
+}
+
+.rmNextItem {
+  margin-left: 10px;
+  border: none;
+  background: none;
+}
+
+.addBt {
+  background: none;
+  border: 2px solid #e8e8e8;
+  color: #e8e8e8;
+}
+
+ul {
+  margin-right: 15px;
+}

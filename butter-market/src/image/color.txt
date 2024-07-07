@@ -1,0 +1,15 @@
+#52A5E3 스카이
+#060705 블랙
+#F9D020 옐로
+#1C4464 블루
+
+ const ColorButton = styled(Button)(({ theme }) => ({
+        width: "60%",
+        height: "45px",
+
+        backgroundColor: "#F9D020",
+        color: "white",
+        '&:hover': {
+            backgroundColor: "#FADF68",
+        },
+    }));
